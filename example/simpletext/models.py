@@ -1,7 +1,7 @@
 """Example model."""
 from django.db import models
 
-from categories.base import CategoryBase
+from django_categories.base import CategoryBase
 
 
 class SimpleText(models.Model):
