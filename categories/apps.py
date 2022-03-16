@@ -5,9 +5,8 @@ from django.apps import AppConfig
 class CategoriesConfig(AppConfig):
     """Application configuration for categories."""
 
-    name = "categories"
+    name = "django-categories"
     verbose_name = "Categories"
-    print(name, verbose_name)
 
     def __init__(self, *args, **kwargs):
         super(CategoriesConfig, self).__init__(*args, **kwargs)
