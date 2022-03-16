@@ -7,6 +7,7 @@ class CategoriesConfig(AppConfig):
 
     name = "categories"
     verbose_name = "Categories"
+    print(name, verbose_name)
 
     def __init__(self, *args, **kwargs):
         super(CategoriesConfig, self).__init__(*args, **kwargs)
