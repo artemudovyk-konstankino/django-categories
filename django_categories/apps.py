@@ -2,14 +2,14 @@
 from django.apps import AppConfig
 
 
-class CategoriesConfig(AppConfig):
+class DjangoCategoriesConfig(AppConfig):
     """Application configuration for categories."""
 
     name = "django_categories"
     verbose_name = "Categories"
 
     def __init__(self, *args, **kwargs):
-        super(CategoriesConfig, self).__init__(*args, **kwargs)
+        super(DjangoCategoriesConfig, self).__init__(*args, **kwargs)
         from django.db.models.signals import class_prepared
 
         class_prepared.connect(handle_class_prepared)
