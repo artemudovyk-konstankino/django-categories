@@ -57,7 +57,7 @@ Hard coded connections are done in the exact same way you handle any other forei
 
 	class MyModel(models.Model):
 	    name = models.CharField(max_length=100)
-	    category = models.ForeignKey('categories.Category')
+	    category = models.ForeignKey('django_categories.Category')
 
 Don't forget to add the field or fields to your ``ModelAdmin`` class as well.
 
