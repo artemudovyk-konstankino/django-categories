@@ -2,10 +2,10 @@
 from django.apps import AppConfig
 
 
-class CategoriesConfig(AppConfig):
+class DjangoCategoriesConfig(AppConfig):
     """Application configuration for categories."""
 
-    name = "categories"
+    name = "django_categories"
     verbose_name = "Categories"
 
     def __init__(self, *args, **kwargs):

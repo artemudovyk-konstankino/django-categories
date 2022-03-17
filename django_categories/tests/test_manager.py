@@ -1,7 +1,7 @@
 # test active returns only active items
 from django.test import TestCase
 
-from categories.models import Category
+from django_categories.models import Category
 
 
 class CategoryManagerTest(TestCase):
