@@ -4,7 +4,7 @@ from django.core.files import File
 from django.core.files.uploadedfile import UploadedFile
 from django.test import TestCase
 
-from django_categories.models import Category
+from categories.models import Category
 
 
 class TestCategoryThumbnail(TestCase):

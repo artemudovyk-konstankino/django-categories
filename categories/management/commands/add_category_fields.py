@@ -20,8 +20,8 @@ class Command(BaseCommand):
         """
         Alter the tables.
         """
-        from django_categories.migration import migrate_app
-        from django_categories.settings import MODEL_REGISTRY
+        from categories.migration import migrate_app
+        from categories.settings import MODEL_REGISTRY
 
         if options["app_names"]:
             for app in options["app_names"]:

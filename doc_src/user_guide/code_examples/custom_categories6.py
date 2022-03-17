@@ -1,5 +1,5 @@
-from django_categories.base import CategoryBaseAdminForm
-from django_categories.models import Category
+from categories.base import CategoryBaseAdminForm
+from categories.models import Category
 
 
 class CategoryAdminForm(CategoryBaseAdminForm):

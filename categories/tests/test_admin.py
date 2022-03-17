@@ -3,7 +3,7 @@ from django.test import Client, TestCase
 from django.urls import reverse
 from django.utils.encoding import smart_str
 
-from django_categories.models import Category
+from categories.models import Category
 
 
 class TestCategoryAdmin(TestCase):

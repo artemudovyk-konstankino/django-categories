@@ -4,8 +4,8 @@ from django.core.management.base import BaseCommand, CommandError
 from django.db import transaction
 from slugify import slugify
 
-from django_categories.models import Category
-from django_categories.settings import SLUG_TRANSLITERATOR
+from categories.models import Category
+from categories.settings import SLUG_TRANSLITERATOR
 
 
 class Command(BaseCommand):
