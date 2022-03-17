@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from django_categories.admin import CategoryBaseAdmin
+from categories.admin import CategoryBaseAdmin
 
 from .models import SimpleCategory
 

@@ -1,7 +1,7 @@
 """Admin interface for simple text."""
 from django.contrib import admin
 
-from django_categories.admin import CategoryBaseAdmin, CategoryBaseAdminForm
+from categories.admin import CategoryBaseAdmin, CategoryBaseAdminForm
 
 from .models import SimpleCategory, SimpleText
 

@@ -1,5 +1,5 @@
-from django_categories import models, settings
-from django_categories.base import CategoryBase
+from categories import models, settings
+from categories.base import CategoryBase
 
 
 class Category(CategoryBase):
