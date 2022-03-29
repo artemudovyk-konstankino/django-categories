@@ -1,4 +1,4 @@
-from django-categories.models import Category
+from django_categories.models import Category
 
 
 def save(self, *args, **kwargs):

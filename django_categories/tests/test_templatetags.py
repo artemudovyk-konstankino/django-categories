@@ -3,7 +3,7 @@ import re
 from django import template
 from django.test import TestCase
 
-from django-categories.models import Category
+from django_categories.models import Category
 
 
 class CategoryTagsTest(TestCase):

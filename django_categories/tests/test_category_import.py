@@ -7,8 +7,8 @@ from django.conf import settings
 from django.core.management.base import CommandError
 from django.test import TestCase, override_settings
 
-from django-categories.management.commands.import_categories import Command
-from django-categories.models import Category
+from django_categories.management.commands.import_categories import Command
+from django_categories.models import Category
 
 
 @override_settings(INSTALLED_APPS=(app for app in settings.INSTALLED_APPS if app != "django.contrib.flatpages"))

@@ -17,14 +17,14 @@ import django  # NOQA
 
 django.setup()
 
-import django-categories  # noqa
-import django-categories.urls  # noqa
+import django_categories  # noqa
+import django_categories.urls  # noqa
 
 project = "Django Categories"
 copyright = f"2010-{date.today():%Y}, Corey Oordt"
 
-version = django-categories.__version__
-release = django-categories.__version__
+version = django_categories.__version__
+release = django_categories.__version__
 
 # -- General configuration -----------------------------------------------------
 

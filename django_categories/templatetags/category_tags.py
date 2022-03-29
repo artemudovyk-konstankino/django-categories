@@ -13,8 +13,8 @@ from mptt.templatetags.mptt_tags import (
 )
 from mptt.utils import drilldown_tree_for_node
 
-from django-categories.base import CategoryBase
-from django-categories.models import Category
+from django_categories.base import CategoryBase
+from django_categories.models import Category
 
 register = template.Library()
 

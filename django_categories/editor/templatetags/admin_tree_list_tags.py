@@ -9,8 +9,8 @@ from django.utils.encoding import force_str, smart_str
 from django.utils.html import conditional_escape, escape, escapejs, format_html
 from django.utils.safestring import mark_safe
 
-from django-categories.editor import settings
-from django-categories.editor.utils import display_for_field
+from django_categories.editor import settings
+from django_categories.editor.utils import display_for_field
 
 register = Library()
 

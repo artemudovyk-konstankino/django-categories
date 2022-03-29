@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ("contenttypes", "0002_remove_content_type_name"),
-        ("django-categories", "0003_auto_20200306_1050"),
+        ("django_categories", "0003_auto_20200306_1050"),
     ]
 
     operations = [

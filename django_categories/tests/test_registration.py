@@ -5,7 +5,7 @@
 import django
 from django.test import TestCase
 
-from django-categories.registration import _process_registry, registry
+from django_categories.registration import _process_registry, registry
 
 
 class CategoryRegistrationTest(TestCase):
