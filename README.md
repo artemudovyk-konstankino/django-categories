@@ -132,8 +132,8 @@ The `editor` app was placed inside the categories app, `categories.editor`, to a
 A setting change is all that is needed:
 
     INSTALLED_APPS = (
-        'django_categories',
-        'django_categories.editor',
+        'django-categories',
+        'django-categories.editor',
     )
 
 ### New in 0.8

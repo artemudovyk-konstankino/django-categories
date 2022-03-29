@@ -5,7 +5,7 @@ from django.apps import AppConfig
 class DjangoCategoriesConfig(AppConfig):
     """Application configuration for categories."""
 
-    name = "django_categories"
+    name = "django-categories"
     verbose_name = "Categories"
 
     def __init__(self, *args, **kwargs):

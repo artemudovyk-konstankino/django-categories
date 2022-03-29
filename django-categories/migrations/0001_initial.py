@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                     models.FileField(
                         storage=django.core.files.storage.FileSystemStorage(),
                         null=True,
-                        upload_to="uploads/django_categories/thumbnails",
+                        upload_to="uploads/django-categories/thumbnails",
                         blank=True,
                     ),
                 ),
@@ -74,7 +74,7 @@ class Migration(migrations.Migration):
                         related_name="children",
                         verbose_name="parent",
                         blank=True,
-                        to="django_categories.Category",
+                        to="django-categories.Category",
                         on_delete=models.CASCADE,
                         null=True,
                     ),
@@ -104,7 +104,7 @@ class Migration(migrations.Migration):
                 ),
                 (
                     "category",
-                    models.ForeignKey(verbose_name="category", to="django_categories.Category", on_delete=models.CASCADE),
+                    models.ForeignKey(verbose_name="category", to="django-categories.Category", on_delete=models.CASCADE),
                 ),
                 (
                     "content_type",

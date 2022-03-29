@@ -1,4 +1,4 @@
-from django_categories.base import CategoryBase
+from django-categories.base import CategoryBase
 
 
 class Meta(CategoryBase.Meta):

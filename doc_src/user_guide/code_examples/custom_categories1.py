@@ -1,4 +1,4 @@
-from django_categories.models import CategoryBase
+from django-categories.models import CategoryBase
 
 
 class SimpleCategory(CategoryBase):
